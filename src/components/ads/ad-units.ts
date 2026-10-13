@@ -10,6 +10,7 @@ export const adUnits = [
     id: 'container-banner',
     type: 'container-banner',
     scriptSrc: 'https://bauval.org/21/a17a914f3b03109bd416209a248f48a2',
+    attributes: { 'data-cfasync': 'false' },
     containerId: 'container-a17a914f3b03109bd416209a248f48a2',
   },
   {
@@ -76,5 +77,12 @@ export const adUnits = [
   'params' : {}
 };
 `,
+  },
+  {
+    id: 'popunder',
+    type: 'popunder',
+    scriptSrc: 'https://abscloud.org/1/2779e1d2f7256dd94d07a5af8d8b618a',
+    attributes: { 'data-cfasync': 'false' },
+    isPopunder: true,
   },
 ];

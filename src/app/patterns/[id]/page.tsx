@@ -26,6 +26,7 @@ function DetailSkeleton() {
           </div>
         </div>
       </div>
+
     </main>
   );
 }

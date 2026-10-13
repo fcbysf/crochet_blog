@@ -31,7 +31,8 @@ async function waitForExternalScript(
   src: string,
   container: HTMLElement,
   timeoutMs = 5000,
-  isAsync = false
+  isAsync = false,
+  attributes?: Record<string, string>
 ): Promise<boolean> {
   return new Promise<boolean>((resolve) => {
     const timeout = setTimeout(() => {
@@ -43,6 +44,9 @@ async function waitForExternalScript(
 
     const scr = document.createElement('script');
     scr.async = isAsync;
+    Object.entries(attributes ?? {}).forEach(([name, value]) => {
+      scr.setAttribute(name, value);
+    });
     scr.src = src;
     scr.addEventListener('load', () => {
       clearTimeout(timeout);
@@ -94,7 +98,9 @@ export function AdInjector() {
             // Social Bar: Adsterra's own script; append to wrapper.
             const scr = document.createElement('script');
             scr.async = false;
-            scr.setAttribute('data-cfasync', 'false');
+            Object.entries(unit.attributes ?? {}).forEach(([name, value]) => {
+              scr.setAttribute(name, value);
+            });
             scr.src = unit.scriptSrc!;
             wrapper.appendChild(scr);
             // Social Bar self‑initialises; mark loaded.
@@ -124,7 +130,8 @@ export function AdInjector() {
               unit.scriptSrc!,
               wrapper,
               5000,
-              true // official snippet loads this unit's script with async
+              true, // official snippet loads this unit's script with async
+              unit.attributes
             );
             if (success) {
               wrapper.setAttribute('data-loaded', 'true');
@@ -138,7 +145,9 @@ export function AdInjector() {
           const success = await waitForExternalScript(
             unit.scriptSrc!,
             wrapper,
-            5000
+            5000,
+            false,
+            unit.attributes
           );
           if (success) {
             wrapper.setAttribute('data-loaded', 'true');
@@ -155,6 +164,25 @@ export function AdInjector() {
     return () => {
       cancelled = true;
     };
+  }, []);
+
+  return null;
+}
+
+export function PopunderInjector() {
+  useEffect(() => {
+    const unit = adUnits.find((adUnit) => adUnit.isPopunder);
+    if (!unit || document.querySelector(`script[src="${unit.scriptSrc}"]`)) {
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.async = true;
+    Object.entries(unit.attributes ?? {}).forEach(([name, value]) => {
+      script.setAttribute(name, value);
+    });
+    script.src = unit.scriptSrc!;
+    document.body.appendChild(script);
   }, []);
 
   return null;
