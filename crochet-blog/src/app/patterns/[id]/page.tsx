@@ -1,23 +1,125 @@
-import ExternalLink from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, X } from "lucide-react";
 
-export const generateStaticParams = async () => {
-  const { getPatterns } = await import("@/context/PatternsContext");
-  const patterns = await getPatterns();
-  return patterns.map((pattern) => ({
+const patternsData = [
+  {
+    id: "1",
+    title: "Beginner Granny Square",
+    category: "Beginner",
+    author: "Sarah Johnson",
+    date: "2024-01-15",
+    difficulty: "Easy",
+    mainImg: "/patterns/granny-square.jpg",
+    otherImgs: ["/patterns/granny-square-2.jpg", "/patterns/granny-square-3.jpg"],
+    description: "A classic granny square pattern perfect for beginners learning the basics of crochet.",
+  },
+  {
+    id: "2",
+    title: "Sunset Stoles",
+    category: "Intermediate",
+    author: "Marie Chen",
+    date: "2024-02-20",
+    difficulty: "Medium",
+    mainImg: "/patterns/sunset-stole.jpg",
+    otherImgs: ["/patterns/sunset-stole-2.jpg"],
+    description: "Elegant stole worked in gradient colors resembling a sunset over the horizon.",
+  },
+  {
+    id: "3",
+    title: "Cozy Cafe Blanket",
+    category: "Intermediate",
+    author: "Lisa Wang",
+    date: "2024-03-10",
+    difficulty: "Medium",
+    mainImg: "/patterns/coffee-blanket.jpg",
+    otherImgs: ["/patterns/coffee-blanket-2.jpg", "/patterns/coffee-blanket-3.jpg"],
+    description: "A warm blanket worked in cafe colors, perfect for chilly evenings.",
+  },
+  {
+    id: "4",
+    title: "Moss Stitch Scarf",
+    category: "Beginner",
+    author: "Emily Davis",
+    date: "2024-04-05",
+    difficulty: "Easy",
+    mainImg: "/patterns/moss-scarf.jpg",
+    otherImgs: ["/patterns/moss-scarf-2.jpg"],
+    description: "Simple moss stitch scarf that works up quickly and looks beautiful.",
+  },
+  {
+    id: "5",
+    title: "Lace Doilie",
+    category: "Advanced",
+    author: "Charlotte Miller",
+    date: "2024-05-12",
+    difficulty: "Advanced",
+    mainImg: "/patterns/lace-doilie.jpg",
+    otherImgs: ["/patterns/lace-doilie-2.jpg"],
+    description: "Intricate lace doilie requiring patience and precision.",
+  },
+  {
+    id: "6",
+    title: "Flower Power Hat",
+    category: "Beginner",
+    author: "Olivia Brown",
+    date: "2024-06-18",
+    difficulty: "Easy",
+    mainImg: "/patterns/hat.jpg",
+    otherImgs: ["/patterns/hat-2.jpg", "/patterns/hat-3.jpg"],
+    description: "Quick crochet hat with flower motifs, great for using up yarn scraps.",
+  },
+  {
+    id: "7",
+    title: "Postmodern Rectangle",
+    category: "Intermediate",
+    author: "Daniel Wilson",
+    date: "2024-07-22",
+    difficulty: "Medium",
+    mainImg: "/patterns/rectangle.jpg",
+    otherImgs: ["/patterns/rectangle-2.jpg"],
+    description: "A geometric rectangle piece using modern color blocking techniques.",
+  },
+  {
+    id: "8",
+    title: "Puff Stitch Throw",
+    category: "Intermediate",
+    author: "Sophia Anderson",
+    date: "2024-08-30",
+    difficulty: "Medium",
+    mainImg: "/patterns/throw.jpg",
+    otherImgs: ["/patterns/throw-2.jpg", "/patterns/throw-3.jpg"],
+    description: "Luxurious throw worked in puff stitches for ultimate coziness.",
+  },
+  {
+    id: "9",
+    title: "Shell Stitch Baby Blanket",
+    category: "Beginner",
+    author: "Jessica Taylor",
+    date: "2024-09-15",
+    difficulty: "Easy",
+    mainImg: "/patterns/shell-blanket.jpg",
+    otherImgs: ["/patterns/shell-blanket-2.jpg"],
+    description: "Gentle shell stitch pattern, perfect for baby gifts.",
+  },
+];
+
+export async function generateStaticParams() {
+  return patternsData.map((pattern) => ({
     id: pattern.id,
   }));
-};
+}
+
+function findPattern(id: string) {
+  return patternsData.find((p) => p.id === id) || null;
+}
 
 export default function PatternDetailPage({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: { id: string };
 }) {
-  const { id } = use(params);
-  const { getPatternById, patterns } = usePatterns();
-  const pattern = getPatternById(id);
-
-  const [selectedImg, setSelectedImg] = useState<string | null>(null);
+  const pattern = findPattern(params.id);
 
   if (!pattern) {
     return (
@@ -40,14 +142,6 @@ export default function PatternDetailPage({
       </main>
     );
   }
-
-  const similar = patterns
-    .filter((p) => p.id !== pattern.id && p.category === pattern.category)
-    .slice(0, 3);
-
-  const openLightbox = (src: string) => {
-    setSelectedImg(src);
-  };
 
   return (
     <main className="pt-20 pb-12">
@@ -121,7 +215,7 @@ export default function PatternDetailPage({
                     sizes="96px"
                     className="object-cover"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = FALLBACK_IMG;
+                      (e.target as HTMLImageElement).src = "/placeholder-400x300.svg";
                     }}
                   />
                 </div>
@@ -138,7 +232,6 @@ export default function PatternDetailPage({
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-lg bg-zinc-900 px-8 py-3.5 text-lg font-medium text-white transition-colors hover:bg-zinc-800 max-w-md mx-auto"
           >
-            <ExternalLink className="h-5 w-5" />
             Support me
           </a>
         </div>

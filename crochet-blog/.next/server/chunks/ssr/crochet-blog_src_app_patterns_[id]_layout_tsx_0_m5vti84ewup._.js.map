@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../crochet-blog/src/app/patterns/%5Bid%5D/layout.tsx"],"sourcesContent":["export default function Layout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return <div>{children}</div>;\n}"],"names":["Layout","children"],"mappings":"wEAAe,SAASA,AAAO,UAC7BC,CAAQ,CAGT,EACC,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAKA,GACf"}
