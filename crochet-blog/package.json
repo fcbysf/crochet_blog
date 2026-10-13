@@ -7,7 +7,9 @@
     "start": "next start",
     "cfastart": "opennext cloudflare",
     "deploy": "opennext cloudflare deploy",
-    "preview": "next preview"
+    "preview": "opennextjs-cloudflare preview",
+    "preview-build": "next build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "next": "16.4.0",
