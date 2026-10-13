@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, Download, Heart, X, ExternalLink } from "lucide-react";
 import { usePatterns } from "@/context/PatternsContext";
 import { PatternCard } from "@/components/PatternCard";
+import { AdInjector } from "@/components/ads/ad-injector";
 
 const FALLBACK_IMG = "/placeholder-400x300.svg";
 
@@ -94,6 +95,9 @@ function PatternDetailContent({
           All patterns
         </Link>
 
+        {/* Social Bar (Adsterra unit 1) – sticky, page-level ad */}
+        <div data-unit-id="social-bar" className="sticky top-0 z-40"></div>
+
         {/* Hero: main image left, details + related images right */}
         <section className="mb-14 grid gap-8 lg:grid-cols-2 lg:items-stretch">
           <button
@@ -141,33 +145,33 @@ function PatternDetailContent({
               </p>
             </div>
 
-{/* Gallery: small thumbnails in a row */}
-              {pattern.otherImgs.length > 0 && (
-                <div>
-                  <h2 className="mb-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                    More from this pattern
-                  </h2>
-                  <div className="flex flex-wrap gap-2">
-                    {pattern.otherImgs.map((img, index) => (
-                      <div
-                        key={index}
-                        className="relative h-30 w-30 sm:h-40 sm:w-40 cursor-default overflow-hidden rounded-lg bg-zinc-100 dark:bg-zinc-800"
-                      >
-                        <Image
-                          src={img}
-                          alt={`${pattern.title} view ${index + 1}`}
-                          fill
-                          sizes="80px"
-                          className="object-cover"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = FALLBACK_IMG;
-                          }}
-                        />
-                      </div>
-                    ))}
-                  </div>
+            {/* Gallery: small thumbnails in a row */}
+            {pattern.otherImgs.length > 0 && (
+              <div>
+                <h2 className="mb-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                  More from this pattern
+                </h2>
+                <div className="flex flex-wrap gap-2">
+                  {pattern.otherImgs.map((img, index) => (
+                    <div
+                      key={index}
+                      className="relative h-30 w-30 sm:h-40 sm:w-40 cursor-default overflow-hidden rounded-lg bg-zinc-100 dark:bg-zinc-800"
+                    >
+                      <Image
+                        src={img}
+                        alt={`${pattern.title} view ${index + 1}`}
+                        fill
+                        sizes="80px"
+                        className="object-cover"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = FALLBACK_IMG;
+                        }}
+                      />
+                    </div>
+                  ))}
                 </div>
-              )}
+              </div>
+            )}
 
             {/* Actions */}
             <div className="flex flex-wrap gap-3">
@@ -175,38 +179,48 @@ function PatternDetailContent({
             </div>
           </div>
         </section>
+
+        {/* Container Banner (Adsterra unit 2) – injected by AdInjector */}
+        <div data-unit-id="container-banner" className="mb-8"></div>
+
         <h1 className="w-3/4  mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-100">
           Pattern Instructions
         </h1>
-        <section   dangerouslySetInnerHTML={{
-    __html: pattern.patternText || "<p>No pattern text available.</p>"
-  }} className="w-3/4 m-auto " >
+        <section dangerouslySetInnerHTML={{
+          __html: pattern.patternText || "<p>No pattern text available.</p>"
+        }} className="w-3/4 m-auto " >
         </section>
 
+        {/* Banner 320x50 (Adsterra unit 3 – mobile banner) */}
+        <div data-unit-id="banner-320x50" className="block sm:hidden mb-4"></div>
+
         {/* Support me */}
-<div className="mt-6 flex flex-wrap justify-center gap-4">
-              {pattern.buyUrl && (
-                <a
-                  href={pattern.buyUrl}
-                  
-                  className="inline-flex items-center gap-2 rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
-                >
-                  <Download className="h-4 w-4" />
-                  premium PDF pattern
-                </a>
-              )}
-              {pattern.buyUrl && (
-                <a
-                  href={"https://crochetmakerr.gumroad.com/"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg border border-zinc-300 bg-white px-5 py-2.5 text-sm font-medium text-zinc-900 transition-colors hover:border-zinc-400 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:border-zinc-600 dark:hover:bg-zinc-800"
-                >
-                  <Heart className="h-4 w-4" />
-                  Discover more
-                </a>
-              )}
-            </div>
+        <div className="mt-6 flex flex-wrap justify-center gap-4">
+          {pattern.buyUrl && (
+            <a
+              href={pattern.buyUrl}
+
+              className="inline-flex items-center gap-2 rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+            >
+              <Download className="h-4 w-4" />
+              premium PDF pattern
+            </a>
+          )}
+
+          <a
+            href={"https://crochetmakerr.gumroad.com/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg border border-zinc-300 bg-white px-5 py-2.5 text-sm font-medium text-zinc-900 transition-colors hover:border-zinc-400 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:border-zinc-600 dark:hover:bg-zinc-800"
+          >
+            <Heart className="h-4 w-4" />
+            Discover more
+          </a>
+
+        </div>
+
+        {/* Rectangle 300x250 (Adsterra unit 4) */}
+        <div data-unit-id="rect-300x250" className="mb-6"></div>
 
         {/* Similar patterns */}
         {similar.length > 0 && (
@@ -221,6 +235,15 @@ function PatternDetailContent({
             </div>
           </section>
         )}
+
+        {/* Skyscraper 160x300 (Adsterra unit 5) */}
+        <div data-unit-id="skyscraper-160x300" className="mb-8"></div>
+
+        {/* Leaderboard 468x60 (Adsterra unit 6 – desktop, needs 468px width) */}
+        <div data-unit-id="leader-468x60" className="hidden sm:block mb-8"></div>
+
+        {/* Leaderboard 728x90 (Adsterra unit 7 – desktop only) */}
+        <div data-unit-id="leader-728x90" className="hidden lg:block mb-8"></div>
       </div>
 
       {/* Lightbox */}
@@ -254,6 +277,9 @@ function PatternDetailContent({
           </div>
         </div>
       )}
+
+      {/* Ad injection – initializes all seven ad units (guarded against double-init) */}
+      <AdInjector />
     </main>
   );
 }

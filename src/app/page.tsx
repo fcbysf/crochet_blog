@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { PatternGallery } from "@/components/PatternGallery";
+import { AdInjector } from "@/components/ads/ad-injector";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Rectangle 300x250 (Adsterra unit 4) */}
+        <div data-unit-id="rect-300x250" className="mb-6"></div>
+
         {/* About Us Section */}
         <section id="about" className="md:mt-32 mb-24 md:mb-52">
           <div className="flex flex-row gap-4 lg:gap-12 items-center">
@@ -60,6 +64,9 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Banner 320x50 (Adsterra unit 3 – mobile banner) */}
+        <div data-unit-id="banner-320x50" className="block sm:hidden mb-4"></div>
+
         {/* Pattern Sections - rendered from the PatternsContext */}
         <section id="latest-patterns" className="mb-16">
           <PatternGallery title="Latest Patterns" />
@@ -71,13 +78,17 @@ export default function Home() {
         />
         <PatternGallery title="Popular Patterns" limit={3} />
 
+        {/* Container Banner (Adsterra unit 2) */}
+        <div data-unit-id="container-banner" className="mb-8"></div>
+
         {/* Contact Section */}
         <section id="contact" className="mt-24 py-12 bg-zinc-50">
           <div className="max-w-2xl mx-auto px-6">
             <h2 className="text-2xl font-bold text-zinc-900 mb-4 dark:text-zinc-100">
               Contact Us
             </h2>
-            <p className="text-zinc-600 dark:text-zinc-400 mb-6">
+            <div data-unit-id="leader-728x90" className="hidden lg:block mb-8"></div>
+            <p className="text-zinc-600 dark:text-zinc-600 mb-6">
               Got questions or feedback? Drop us a line at info@crochetblog.com
             </p>
             <form className="space-y-4">
@@ -123,7 +134,11 @@ export default function Home() {
             </form>
           </div>
         </section>
+
+        <div data-unit-id="leader-468x60" className="hidden sm:block mb-8"></div>
       </div>
+
+      <AdInjector />
     </main>
   );
 };

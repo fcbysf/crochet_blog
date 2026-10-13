@@ -795,5 +795,615 @@ Pattern by spidy crochet &middot; The Arachne Collection</p>
       "/pattern imgs/iphonecase/1.png",
     ],
     buyUrl: "https://crochetmakerr.gumroad.com/l/iphonecrochet",
-  }
+  },
+  {
+    id: "crochet-animal",
+    title: "Crochet Zoo Animals Pattern: Tiger, Zebra & Hippo Amigurumi",
+    description: "Make three cuddly zoo animals with this step-by-step amigurumi e-book: a tiger, a zebra, and a hippo. Each one is about 20 cm tall and worked in continuous rounds with a 2.0 mm hook.",
+    patternText: `<section id="abbreviations"><h2>Abbreviations</h2>
+<dl>
+<dt>MR / AM<dd>magic ring
+<dt>ch<dd>chain
+<dt>sl st<dd>slip stitch
+<dt>sc<dd>single crochet (low point)
+<dt>hdc<dd>half double crochet (half high point)
+<dt>dc<dd>double crochet (high point)
+<dt>inc<dd>increase
+<dt>dec<dd>decrease
+<dt>x<dd>times (repeat)
+<dt>BLO<dd>back loop only: insert the hook only under the back loop of the stitch of the previous round. The front loops stay free and give a ridge/relief effect or form details.
+<dt>FLO<dd>front loop only
+<dt>( )<dd>at the end of a row = stitch count
+</dl></section>
+
+<section id="general-notes"><h2>General notes</h2>
+<ul>
+<li>Work in continuous rounds. Use the exact yarn and hook sizes for the finished size shown (about 20 cm for each animal).
+<li>Animals: 2.0 mm hook. Clothes: 3.0 mm hook. Black safety eyes 13 mm or 15 mm.
+<li>Also needed: scissors, stitch marker (optional), stuffing, doll needle, pins, blush for cheeks.
+<li>Difficulty: intermediate (beginners can manage by following the recipe exactly and using the support videos).
+<li>Support videos are in your account on the Fofuami website: Downloads - Auxiliary Videos.
+</ul></section>
+
+<article id="tiger">
+<h2>Tiger</h2>
+
+<section><h3>Materials - Yarn (1 skein of each; colors are suggestions)</h3>
+<ul>
+<li>Traditional Amigurumi: 4146 Gem (EGG YOLK, orange), 8001 White, 7220 Date (brown), 8990 Black, 1112 Cream, 5745 Eucalyptus
+<li>Cléa line: 8990 Black
+</ul></section>
+
+<section><h3>Head (EGG YOLK, 2 mm hook)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc (8)
+<li><b>R2:</b> inc in each sc (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> sc around (40)
+<li><b>R7:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R8:</b> 21 sc, change to DATE, 6 sc, change to EGG YOLK, 21 sc (48)
+<li><b>R9:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R10:</b> [6 sc, 1 inc] x3, 1 sc, change to DATE, 5 sc, 1 inc, 5 sc, change to EGG YOLK, 1 sc, 1 inc, [6 sc, 1 inc] x3 (64)
+<li><b>R11:</b> sc around (64)
+<li><b>R12:</b> 28 sc, change to DATE, 6 sc, change to EGG YOLK, 30 sc (64)
+<li><b>R13-17:</b> sc around (64) - 5 rounds
+<li><b>R18:</b> change to DATE, 19 sc, change to EGG YOLK, 25 sc, change to DATE, 20 sc (64)
+<li><b>R19:</b> change to WHITE, [3 sc, 1 inc] x16 (80)
+<li><b>R20:</b> change to DATE, 27 sc, change to WHITE, 24 sc, change to DATE, 29 sc (80)
+<li><b>R21:</b> change to WHITE, sc around (80)
+<li><b>R22:</b> change to DATE, 23 sc, change to WHITE, 25 sc, change to DATE, 32 sc (80)
+<li><b>R23-27:</b> change to WHITE, sc around (80) - 5 rounds
+<li><b>R28:</b> [3 sc, 1 dec] x16 (64)
+<li><b>R29:</b> [1 dec, 2 sc] x16 (48)
+<li><b>R30:</b> [1 sc, 1 dec] x16 (32)
+<li><b>R31:</b> sc around (32). Close with sl st, leave a long tail for sewing the head to the body.
+</ul>
+<p class="note">The color-change stitch counts in rows 8-22 were scrambled in the PDF text; they were rebuilt from the Zebra head (same structure). Check against the pictures.</p>
+<p><b>Eyes:</b> place between rounds 16 and 17, with 6 sc visible between them. Tip: press the eye locks up to the second step so the eyes sit deeper and safer.</p>
+</section>
+
+<section><h3>Whites of the Eyes (double WHITE Amigurumi yarn)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail to knot later) and exit at the corner of the eye (middle of the corner).
+<li>Insert the needle at the corner of the lower part of the eye and exit into the open part of the head.
+<li>Exit at the corner of the second eye (middle of the corner).
+<li>Insert at the corner of the lower part of the eye, exit into the open part of the head, pull both threads slightly and tie 2 knots.
+</ol></section>
+
+<section><h3>Black Embroidery of Eyes (double Cléa BLACK)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail to knot later) and exit at the corner of the eye (middle of the corner).
+<li>Insert at the corner of the upper part of the eye and exit into the open part of the head.
+<li>Exit at the corner of the second eye (middle of the corner).
+<li>Insert at the corner of the upper part of the eye, exit into the open part of the head, pull the threads slightly and tie 2 knots.
+</ol></section>
+
+<section><h3>Eyebrows (Cléa BLACK, NOT doubled)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail to knot later), exit on the second round above the eyes, skip 3 sc and insert the needle one round above.
+<li>Repeat on the other side. Join the two ends of the thread and tie a few knots.
+</ol></section>
+
+<section><h3>Snout (WHITE)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc (8)
+<li><b>R2:</b> inc all around (16)
+<li><b>R3:</b> 4 sc, 4 inc, 4 sc, 4 inc (24)
+<li><b>R4:</b> 6 sc, 4 inc, 8 sc, 4 inc, 2 sc (32)
+<li><b>R5:</b> 8 sc, 4 inc, 12 sc, 4 inc, 4 sc (40)
+<li><b>R6:</b> 10 sc, 4 inc, 16 sc, 4 inc, 6 sc (48)
+</ul>
+<p>Close with sl st, leave a long tail. Sew the snout between rounds 17 and 29 of the head (do not stuff), taking only the front loops of the sc. After sewing, sink the eyes (see video).</p></section>
+
+<section><h3>Muzzle Embroidery (BLACK)</h3>
+<p>Make 5 ch. From the 2nd ch: 3 sc, 3 sc in the last ch (same place), then along the bottom of the chain 2 sc, 2 sc in the last ch (10). Close with sl st, leave a long tail.</p>
+<p>Sew the black nose on top of the white snout, then embroider the black mouth line.</p></section>
+
+<section><h3>Ears - make 2 (WHITE, 2 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 11 sc (11)
+<li><b>R2:</b> 3 sc in the same sc, 2 sc, 3 sc in the same sc, 2 sc, 3 sc in the same sc, 4 sc (17)
+<li><b>R3:</b> 1 sc, 3 sc in the same sc, 4 sc, 3 sc in the same sc, 4 sc, 3 sc in the same sc, 5 sc (23)
+<li><b>R4:</b> change to EGG YOLK, 2 sc, 3 sc in the same sc, 6 sc, 3 sc in the same sc, 6 sc, 3 sc in the same sc, 6 sc (29)
+<li><b>R5:</b> 2 sc, change to DATE, 21 sc, change to EGG YOLK, 6 sc, then 2 sl st. Cut a long tail.
+</ul>
+<p>Sew the ears between rounds 5 and 12 of the head, with 5 sc between the ears and the eyes.</p></section>
+
+<section><h3>Body (EGG YOLK)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc
+<li><b>R2:</b> inc all around (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R7:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R8:</b> [6 sc, 1 inc] x8 (64)
+<li><b>R9-20:</b> sc around (64) - 12 rounds
+<li><b>R21:</b> 16 sc, 16 dec, 16 sc (48)
+<li><b>R22-25:</b> sc around (48) - 4 rounds
+<li><b>R26:</b> [4 sc, 1 dec] x8 (40)
+<li><b>R27-30:</b> sc around (40) - 4 rounds
+<li><b>R31:</b> [3 sc, 1 dec] x8 (32)
+<li><b>R32-33:</b> sc around (32) - 2 rounds. Close with sl st and finish off.
+</ul></section>
+
+<section><h3>Legs - make 2 (start WHITE)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+<li><b>R5:</b> [3 sc, 1 inc] x6 (30)
+<li><b>R6-8:</b> sc around (30) - 3 rounds
+<li><b>R9:</b> 6 sc, [1 dec, 1 sc] x6, 6 sc (24)
+<li><b>R10:</b> [2 sc, 1 dec] x6 (18)
+<li><b>R11:</b> change to DATE, sc around (18)
+<li><b>R12:</b> change to EGG YOLK, 6 sc, [1 inc] x6, 6 sc (24)
+<li><b>R13:</b> 6 sc, [1 sc, 1 inc] x6, 6 sc (30)
+<li><b>R14:</b> change to DATE, [1 inc] x2, 24 sc, [1 inc] x4 (36)
+<li><b>R15-16:</b> change to EGG YOLK, sc around (36)
+<li><b>R17:</b> change to DATE, sc around (36)
+<li><b>R18:</b> change to EGG YOLK, 8 sc, [1 sc, 1 dec] x6, 10 sc (30)
+<li><b>R19:</b> sc around (30)
+<li><b>R20:</b> change to DATE, sc around (30)
+<li><b>R21:</b> change to EGG YOLK, 8 sc, [1 dec] x6, 10 sc (24)
+<li><b>R22:</b> [1 dec] x2, 12 sc, [1 dec] x4 (18)
+</ul>
+<p>Stuff, but do not stuff the thigh part much - it should be flatter.</p>
+<ul class="rows">
+<li><b>R23:</b> change to DATE, [1 sc, 1 dec] x6 (12)
+<li><b>R24:</b> change to EGG YOLK, [1 dec] x6 (6). Close with the inverted magic ring: pass the thread from outside to inside through the front loops of the 6 sc only, pull, knot twice and hide the thread.
+</ul>
+<p><b>Leg sewing:</b> position the legs before attaching; leave them slightly forward so there is not a big gap between them. See the video for the exact rounds.</p></section>
+
+<section><h3>Arms - make 2 (start WHITE)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+<li><b>R5-7:</b> sc around (24) - 3 rounds
+<li><b>R8:</b> 3 sc, [1 dec, 1 sc] x6, 3 sc (18)
+<li><b>R9:</b> change to DATE, sc around (18)
+<li><b>R10-11:</b> change to EGG YOLK, sc around (18) - 2 rounds
+<li><b>R12:</b> change to DATE, sc around (18)
+<li><b>R13-14:</b> change to EGG YOLK, sc around (18)
+<li><b>R15:</b> change to DATE, sc around (18)
+<li><b>R16-17:</b> change to EGG YOLK, sc around (18)
+<li><b>R18:</b> change to DATE, sc around (18)
+</ul>
+<p>Stuff the lower part of the arm only.</p>
+<ul class="rows">
+<li><b>R19:</b> change to EGG YOLK, [4 sc, 1 dec] x3 (15)
+<li><b>R20:</b> [3 sc, 1 dec] x3 (12)
+<li><b>R21:</b> change to DATE, fold the arm in half and close with 6 sc (6). Make 1 ch, cut a long tail.
+</ul>
+<p><b>Arm sewing:</b> sew the arms on round 31 of the body, leaving 7-8 sc between them. See the video.</p></section>
+
+<section><h3>Tie - Boy Version (EUCALYPTUS, 2 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 16 ch, skip the first ch, 1 sc in each ch (15)
+<li><b>R2-12:</b> turn, 1 ch, sc across (15) - 11 rows. Make 1 ch and fasten off.
+</ul>
+<p><b>Finish:</b> fold the piece to make the bow; attach a piece of yarn of the same color in the middle and wrap about 6 times, take the thread to the back, knot and fasten off. Make a cord of 51 ch, pass it through the back of the bow and put it on the animal.</p></section>
+
+<section><h3>Flowers - make 2 - Girl Version (start CREAM, 2 mm)</h3>
+<ul class="rows">
+<li><b>Core R1:</b> MR of 5 sc (5). Close with sl st in the front loop of the first sc. *3 ch, 1 sl st in the next loop*; repeat until 5 petals.
+<li><b>R2:</b> working in the back loops of the sc of R1, 1 inc in each (10). Close with sl st.
+</ul>
+<p>Change to WHITE. Back petals: 3 dc in the same place, 1 ch, 1 sl st in the next dc; repeat to make 5 petals. Close with sl st, leave a long tail on each side to attach beside the ears.</p>
+<p class="note">The first line of the back-petal instruction was missing in the PDF.</p></section>
+
+<section><h3>Dress - Girl Version (CREAM, 3 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 42 ch, close with sl st in the first ch to make a ring. 3 ch, 1 hdc in the same place, then 1 hdc in each ch (84). Close with sl st in the top of the first ch.
+<li><b>R2:</b> 2 ch, [2 hdc, 1 hdc inc] around. Close with sl st in the top of the first ch.
+<li><b>R3-5:</b> 2 ch, hdc around. Close with sl st each time - 3 rows. In the last row close with sl st and fasten off.
+</ul>
+<p><b>Straps:</b> attach CREAM to a loop of the starting chain so the seam sits at the back. Sc around; then 24 ch, skip 6 ch, 1 sc in each ch; 30 sc across the back; 1 sc in each ch of the second strap; 6 sc. Make 2 sc buttons, place the dress on the animal, position buttons on the straps and sew.</p>
+<p class="note">The strap instructions were jumbled in the PDF; follow the photos for the strap layout.</p></section>
+</article>
+
+<article id="zebra">
+<h2>Zebra</h2>
+
+<section><h3>Materials - Yarn (1 skein of each; colors are suggestions)</h3>
+<ul>
+<li>Traditional Amigurumi: 8001 White, 8990 Black, 4094 Rose Satin, 7148 Craft
+<li>Soft Amigurumi: 3081 Pink
+<li>Cléa line: 8990 Black
+</ul></section>
+
+<section><h3>Head (WHITE, 2 mm hook)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc (8)
+<li><b>R2:</b> inc in each sc (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> sc around (40)
+<li><b>R7:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R8:</b> 21 sc, change to BLACK, 6 sc, change to WHITE, 21 sc (48)
+<li><b>R9:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R10:</b> [6 sc, 1 inc] x3, 1 sc, change to BLACK, 5 sc, 1 inc, 5 sc, change to WHITE, 1 sc, 1 inc, [6 sc, 1 inc] x3 (64)
+<li><b>R11:</b> sc around (64)
+<li><b>R12:</b> 28 sc, change to BLACK, 6 sc, change to WHITE, 30 sc (64)
+<li><b>R13-17:</b> sc around (64) - 5 rounds
+<li><b>R18:</b> change to BLACK, 19 sc, change to WHITE, 25 sc, change to BLACK, 20 sc (64)
+<li><b>R19:</b> change to WHITE, [3 sc, 1 inc] x16 (80)
+<li><b>R20:</b> change to BLACK, 27 sc, change to WHITE, 24 sc, change to BLACK, 29 sc (80)
+<li><b>R21:</b> change to WHITE, sc around (80)
+<li><b>R22:</b> change to BLACK, 23 sc, change to WHITE, 25 sc, change to BLACK, 32 sc (80)
+<li><b>R23-27:</b> change to WHITE, sc around (80) - 5 rounds
+<li><b>R28:</b> [3 sc, 1 dec] x16 (64)
+<li><b>R29:</b> [1 dec, 2 sc] x16 (48)
+<li><b>R30:</b> [1 sc, 1 dec] x16 (32)
+<li><b>R31:</b> sc around (32). Close with sl st, leave a long tail.
+</ul>
+<p class="note">The PDF ends at R30; R31 follows the other animals' heads.</p>
+<p><b>Eyes:</b> place between rounds 16 and 17, 6 sc between them, pressing locks to the second step.</p></section>
+
+<section><h3>Whites of the Eyes (double WHITE Amigurumi yarn)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit at the corner of the eye.
+<li>Insert at the corner of the lower part of the eye, exit into the open part of the head.
+<li>Exit at the corner of the second eye.
+<li>Insert at the corner of the lower part, exit into the open part of the head, pull both threads slightly and tie 2 knots.
+</ol></section>
+
+<section><h3>Black Embroidery of Eyes (double Cléa BLACK)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit at the corner of the eye.
+<li>Insert at the corner of the upper part of the eye, exit into the open part of the head.
+<li>Exit at the corner of the second eye.
+<li>Insert at the corner of the upper part of the eye, exit into the open part of the head, pull and tie 2 knots.
+</ol></section>
+
+<section><h3>Eyelash - Girl Version only (Cléa BLACK, NOT doubled)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit in the middle of the white/black eye details.
+<li>Insert the needle one stitch away, in the round above the middle of the black embroidery.
+<li>Repeat on the other eye, join the ends and tie two knots.
+</ol></section>
+
+<section><h3>Eyebrows (Cléa BLACK, NOT doubled)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit on the second round above the eyes, skip 3 sc and insert the needle one round above.
+<li>Repeat on the other side. Join the ends and tie a few knots.
+</ol></section>
+
+<section><h3>Face Expression</h3>
+<p>Join the eyes with a piece of WHITE yarn to sink them (video: how to gather and sink your eyes). Do not skip this step - it gives the delicate expression.</p></section>
+
+<section><h3>Snout (BLACK)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc (8)
+<li><b>R2:</b> inc all around (16)
+<li><b>R3:</b> 4 sc, 4 inc, 4 sc, 4 inc (24)
+<li><b>R4:</b> 6 sc, 4 inc, 8 sc, 4 inc, 2 sc (32)
+<li><b>R5:</b> 8 sc, 4 inc, 12 sc, 4 inc, 4 sc (40)
+<li><b>R6:</b> 10 sc, 4 inc, 16 sc, 4 inc, 6 sc (48)
+</ul>
+<p>Close with sl st, leave a long tail. Sew the snout between rounds 17 and 29 of the head, taking the front loops of the sc. After sewing, sink the eyes.</p></section>
+
+<section><h3>Nostrils - make 2 (start PINKISH)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> change to BLACK, inc all around (12). Close with sl st, leave a long tail.
+</ul>
+<p>Sew the nostrils between rounds 4 and 5 of the snout, 6 sc apart. When sewing, fold the nostril and take 1 stitch on each side, twice, to make the snout look folded and cute.</p></section>
+
+<section><h3>Ears - make 2 (2 PINKISH parts + 2 BLACK parts)</h3>
+<p>Make 2 equal pieces in PINKISH and fasten off; make 2 equal pieces in BLACK, do not fasten off.</p>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+</ul>
+<p>Join: place the wrong side of the PINKISH piece against the wrong side of the BLACK piece.</p>
+<ul class="rows">
+<li><b>R5:</b> [3 sc, 1 inc] x6 (30)
+<li><b>R6:</b> sc around (30). Close with sl st, leave a long tail.
+</ul>
+<p>Sew the ears between rounds 4 and 5 of the head. Fold the ear and take 1 stitch on each side, twice.</p></section>
+
+<section><h3>Mane (BLACK)</h3>
+<p>Attach the thread to round 13 at the back of the head, centered. 10 ch, skip 1 ch, [2 sc, 1 inc] x3 (12). In the same direction, skip 2 rounds and sl st into the next. Repeat to make 7 curls. Fasten off.</p>
+<p><i>Tip: curl them with your fingers afterward so they keep their shape.</i></p></section>
+
+<section><h3>Body (start WHITE)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc
+<li><b>R2:</b> inc all around (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R7:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R8:</b> [6 sc, 1 inc] x8 (64)
+<li><b>R9-10:</b> sc around (64) - 2 rounds
+<li><b>R11:</b> change to BLACK, 24 sc, change to WHITE, 16 sc, change to BLACK, 24 sc (64)
+<li><b>R12-13:</b> change to WHITE, sc around (64)
+<li><b>R14:</b> change to BLACK, 24 sc, change to WHITE, 16 sc, change to BLACK, 24 sc (64)
+<li><b>R15-16:</b> change to WHITE, sc around (64)
+<li><b>R17:</b> change to BLACK, 24 sc, change to WHITE, 16 sc, change to BLACK, 24 sc (64)
+<li><b>R18-19:</b> change to WHITE, sc around (64)
+<li><b>R20:</b> change to BLACK, 24 sc, change to WHITE, 16 sc, change to BLACK, 24 sc (64)
+<li><b>R21:</b> change to WHITE, 16 sc, 16 dec, 16 sc (48)
+<li><b>R22:</b> sc around (48)
+<li><b>R23:</b> change to BLACK, 20 sc, change to WHITE, 8 sc, change to BLACK, 20 sc (48)
+<li><b>R24-25:</b> change to WHITE, sc around (48)
+<li><b>R26:</b> change to BLACK, [4 sc, 1 dec] x3, 2 sc, change to WHITE, 2 sc, 1 dec, 4 sc, change to BLACK, 1 dec, [4 sc, 1 dec] x3 (40)
+<li><b>R27-28:</b> change to WHITE, sc around (40)
+<li><b>R29:</b> change to BLACK, 17 sc, change to WHITE, 7 sc, change to BLACK, 16 sc (40)
+<li><b>R30:</b> change to WHITE, sc around (40)
+<li><b>R31:</b> [3 sc, 1 dec] x8 (32)
+<li><b>R32-33:</b> sc around (32). Close with sl st and finish off.
+</ul>
+<p class="note">R20's color-change text was partly garbled in the PDF; completed to match rows 11/14/17.</p></section>
+
+<section><h3>Legs - make 2 (start BLACK)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+<li><b>R5:</b> [3 sc, 1 inc] x6 (30)
+<li><b>R6:</b> sc around in BLO (30)
+<li><b>R7-8:</b> sc around (30) - 2 rounds
+<li><b>R9:</b> 6 sc, [1 dec, 1 sc] x6, 6 sc (24)
+<li><b>R10:</b> [2 sc, 1 dec] x6 (18)
+<li><b>R11:</b> change to WHITE, sc around (18)
+<li><b>R12:</b> 6 sc, [1 inc] x6, 6 sc (24)
+<li><b>R13:</b> change to BLACK, 6 sc, [1 sc, 1 inc] x6, 6 sc (30)
+<li><b>R14:</b> change to WHITE, [1 inc] x2, 24 sc, [1 inc] x4 (36)
+<li><b>R15:</b> sc around (36)
+<li><b>R16:</b> change to BLACK, sc around (36)
+<li><b>R17:</b> change to WHITE, sc around (36)
+<li><b>R18:</b> 8 sc, [1 sc, 1 dec] x6, 10 sc (30)
+<li><b>R19:</b> change to BLACK, sc around (30)
+<li><b>R20:</b> change to WHITE, sc around (30)
+<li><b>R21:</b> 8 sc, [1 dec] x6, 10 sc (24)
+<li><b>R22:</b> change to BLACK, [1 dec] x2, 12 sc, [1 dec] x4 (18)
+</ul>
+<p>Stuff, but do not stuff the thigh part much - it should be flatter.</p>
+<ul class="rows">
+<li><b>R23:</b> [1 sc, 1 dec] x6 (12)
+<li><b>R24:</b> [1 dec] x6 (6). Close with the inverted magic ring (thread from outside to inside through the front loops of the 6 sc), pull, knot twice and hide the thread.
+</ul>
+<p><b>Hoof and leg sewing:</b> with BLACK yarn, form the zebra's hoof (see video). Position the legs before attaching, slightly forward so there is not a big gap between them, then attach using the video for the exact rounds.</p></section>
+
+<section><h3>Arms - make 2 (start BLACK)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+<li><b>R5:</b> sc around in BLO (24)
+<li><b>R6-7:</b> sc around (24) - 2 rounds
+<li><b>R8:</b> 3 sc, [1 dec, 1 sc] x6, 3 sc (18)
+<li><b>R9-10:</b> change to WHITE, sc around (18)
+<li><b>R11:</b> change to BLACK, sc around (18)
+<li><b>R12-13:</b> change to WHITE, sc around (18)
+<li><b>R14:</b> change to BLACK, sc around (18)
+<li><b>R15-16:</b> change to WHITE, sc around (18)
+<li><b>R17:</b> change to BLACK, sc around (18)
+<li><b>R18:</b> change to WHITE, sc around (18)
+</ul>
+<p>Stuff the lower part of the arm only.</p>
+<ul class="rows">
+<li><b>R19:</b> [4 sc, 1 dec] x3 (15)
+<li><b>R20:</b> [3 sc, 1 dec] x3 (12)
+<li><b>R21:</b> fold the arm in half and close with 6 sc (6). Make 1 ch, cut a long tail.
+</ul>
+<p><b>Shell and arm sewing:</b> with BLACK yarn, form the shell of the arms, then attach them to the body on round 31, leaving 7-8 sc between them. See the video.</p></section>
+
+<section><h3>Tie - Boy Version (CRAFT, 2 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 16 ch, skip the first ch, 1 sc in each ch (15)
+<li><b>R2-12:</b> turn, 1 ch, sc across (15) - 11 rows. Fasten off.
+</ul>
+<p>Fold to form the bow, wrap the middle with yarn about 6 times, knot at the back. Make a cord of 51 ch, pass it behind the bow and put it on the animal.</p></section>
+
+<section><h3>Dress - Girl Version (rose SATIN, 3 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make a ch ring closed with sl st in the first ch (42 ch gives the 84 stitches listed). 3 ch, 1 dc in the same place, then 1 dc increase in each ch (84). Close with sl st in the top of the first ch.
+<li><b>R2:</b> 3 ch, 1 dc increase all the way around (168). Close with sl st.
+<li><b>R3-4:</b> 3 ch, dc around (168) - 2 rounds. In the last round close with sl st and fasten off.
+</ul>
+<p><b>Straps:</b> attach SATIN thread to a loop of the starting chain (seam at the back).</p>
+<ul class="rows">
+<li><b>Row 1:</b> 2 ch, 11 more hdc (the 2 ch count as 1 hdc, total 12).
+<li><b>R2-3:</b> 2 ch, turn, hdc across (12) - 2 rows. 1 ch, fasten off.
+<li><b>R4:</b> with SATIN, make a cord of 25 ch, [pass through / attach as shown in the photo], then finish with 25 ch.
+</ul>
+<p class="note">Row 4 was partly missing in the PDF - follow the photo.</p></section>
+
+<section><h3>Bow - Girl Version (SATIN, 2 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 13 ch, 1 sc in each ch from the 2nd ch (12)
+<li><b>R2-6:</b> 1 ch, turn, sc across (12) - 5 rows
+<li><b>R7:</b> 1 row of sc all around the rectangle, up to the sides.
+<li><b>R8:</b> 1 sc and 1 picot (1 sc, 3 ch, 1 sc in the same sc), skip 1 sc, 1 sc and 1 picot; repeat to the end. Close with sl st and fasten off.
+</ul>
+<p>Fold the bow in half, tie a piece of thread around the middle with about 6 turns, knot at the back and finish off.</p></section>
+
+<section><h3>Tiara (SATIN, 3.0 mm)</h3>
+<p>Make 60 ch and close with sl st in the first ch. 2 ch, 1 hdc in each ch, close with sl st in the top of the first ch and cut a long thread. Sew the bow to the tiara and place it on the zebra.</p></section>
+</article>
+
+<article id="hippo">
+<h2>Hippo</h2>
+
+<section><h3>Materials - Yarn (1 skein of each; colors are suggestions)</h3>
+<ul>
+<li>Traditional Amigurumi: 8008 Quarry (grey), 3046 Sweetness, 5741 Parakeet
+<li>Soft Amigurumi: 3081 Pink (PINKISH)
+<li>Cléa line: 8990 Black
+<li>Also WHITE Amigurumi yarn for the eye whites.
+</ul></section>
+
+<section><h3>Head (QUARRY, 2 mm hook)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc (8)
+<li><b>R2:</b> inc in each sc (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> sc around (40)
+<li><b>R7:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R8:</b> sc around (48)
+<li><b>R9:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R10:</b> [6 sc, 1 inc] x8 (64)
+<li><b>R11-18:</b> sc around (64) - 8 rounds
+<li><b>R19:</b> 24 sc, 16 inc, 24 sc (80)
+<li><b>R20-27:</b> sc around (80) - 8 rounds
+<li><b>R28:</b> [3 sc, 1 dec] x16 (64)
+<li><b>R29:</b> sc around (64)
+<li><b>R30:</b> [1 dec, 2 sc] x16 (48)
+<li><b>R31:</b> sc around (48)
+<li><b>R32:</b> [1 sc, 1 dec] x16 (32)
+<li><b>R33:</b> sc around (32). Close with sl st, leave a long tail for sewing the head to the body.
+</ul>
+<p><b>Eyes:</b> between rounds 16 and 17, 6 sc visible between them. Take the increases of round 19 into account so the eyes are not crooked - center them on the increase section of round 19. Press the locks to the second step of the eyes.</p></section>
+
+<section><h3>Whites of the Eyes (double WHITE Amigurumi yarn)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit at the corner of the eye.
+<li>Insert at the corner of the lower part of the eye, exit into the open part of the head.
+<li>Exit at the corner of the second eye.
+<li>Insert at the corner of the lower part, exit into the open part of the head, pull both threads slightly and tie 2 knots.
+</ol></section>
+
+<section><h3>Black Embroidery of Eyes (double Cléa BLACK)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit at the corner of the eye.
+<li>Insert at the corner of the upper part of the eye, exit into the open part of the head.
+<li>Exit at the corner of the second eye.
+<li>Insert at the corner of the upper part of the eye, exit into the open part of the head, pull and tie 2 knots.
+</ol></section>
+
+<section><h3>Eyelash - Girl Version only (Cléa BLACK, NOT doubled)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit in the middle of the white/black eye details.
+<li>Insert the needle one stitch away, in the round above the middle of the black embroidery.
+<li>Repeat on the other eye, join the threads and tie two knots.
+</ol></section>
+
+<section><h3>Eyebrows (Cléa BLACK, NOT doubled)</h3>
+<ol>
+<li>Insert the needle into the open part of the head (leave a tail), exit on the second round above the eyes, skip 3 sc and insert the needle one round above.
+<li>Repeat on the other side. Join the ends and tie a few knots.
+</ol></section>
+
+<section><h3>Face Expression</h3>
+<p>Join the eyes with a piece of QUARRY yarn to sink them (see video). Do not skip this step - it gives the delicate, charming expression.</p></section>
+
+<section><h3>Body (QUARRY)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 8 sc
+<li><b>R2:</b> inc all around (16)
+<li><b>R3:</b> [1 sc, 1 inc] x8 (24)
+<li><b>R4:</b> [2 sc, 1 inc] x8 (32)
+<li><b>R5:</b> [3 sc, 1 inc] x8 (40)
+<li><b>R6:</b> [4 sc, 1 inc] x8 (48)
+<li><b>R7:</b> [5 sc, 1 inc] x8 (56)
+<li><b>R8:</b> [6 sc, 1 inc] x8 (64)
+<li><b>R9-20:</b> sc around (64) - 12 rounds
+<li><b>R21:</b> 16 sc, 16 dec, 16 sc (48)
+<li><b>R22-25:</b> sc around (48) - 4 rounds
+<li><b>R26:</b> [4 sc, 1 dec] x8 (40)
+<li><b>R27-30:</b> sc around (40) - 4 rounds
+<li><b>R31:</b> [3 sc, 1 dec] x8 (32)
+<li><b>R32-33:</b> sc around (32) - 2 rounds. Close with sl st and tie off.
+</ul></section>
+
+<section><h3>Ears - make 2 (2 PINKISH parts + 2 QUARRY parts)</h3>
+<p>Make 2 equal pieces in PINKISH and fasten off; make 2 equal pieces in QUARRY, do not fasten off.</p>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+</ul>
+<p>Join: wrong side of the PINKISH piece against wrong side of the QUARRY piece. Sc all around, taking the stitches of both pieces.</p>
+<p>Fold the ear in half and make 5 sc through both sides. 1 ch, cut a long tail. Sew on round 5 of the head with 10 sc between the ears; keep them centered with respect to the eyes.</p></section>
+
+<section><h3>Legs - make 2 (start PINKISH, 2 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 6 ch, skip the first ch, from the 2nd ch 4 dc, 3 dc in the last ch (same place), along the bottom of the chain 3 dc, 1 inc in the last ch (12)
+<li><b>R2:</b> 1 inc, 3 sc, 3 inc, 3 sc, 2 inc (18)
+<li><b>R3:</b> 1 sc and 1 inc, 3 sc, [1 sc, 1 inc] x3, 3 sc, [1 sc, 1 inc] x2 (24)
+<li><b>R4:</b> 2 sc and 1 inc, 3 sc, [2 sc, 1 inc] x3, 3 sc, [2 sc, 1 inc] x2 (30)
+<li><b>R5:</b> change to QUARRY, sc around in BLO (30)
+<li><b>R6-7:</b> sc around (30) - 2 rounds
+<li><b>R8:</b> 4 sc, [1 dec, 1 sc] x6, 8 sc (24)
+<li><b>R9:</b> [2 sc, 1 dec] x6 (18)
+<li><b>R10:</b> sc around (18)
+<li><b>R11:</b> 6 sc, [1 inc] x6, 6 sc (24)
+<li><b>R12:</b> 6 sc, [1 sc, 1 inc] x6, 6 sc (30)
+<li><b>R13:</b> [1 inc] x2, 24 sc, [1 inc] x4 (36)
+<li><b>R14-16:</b> sc around (36) - 3 rounds
+<li><b>R17:</b> 8 sc, [1 sc, 1 dec] x6, 10 sc (30)
+<li><b>R18-19:</b> sc around (30) - 2 rounds
+<li><b>R20:</b> 8 sc, [1 dec] x6, 10 sc (24)
+<li><b>R21:</b> [1 dec] x2, 12 sc, [1 dec] x4 (18)
+</ul>
+<p>Stuff, but do not stuff the thigh part much - it should be flatter.</p>
+<ul class="rows">
+<li><b>R22:</b> [1 sc, 1 dec] x6 (12)
+<li><b>R23:</b> [1 dec] x6 (6). Close with the inverted magic ring.
+</ul>
+<p><b>Attach the legs:</b> position them first, slightly forward so there is not a big gap between them. See the video for the exact rounds.</p></section>
+
+<section><h3>Arms - make 2 (start PINKISH)</h3>
+<ul class="rows">
+<li><b>R1:</b> MR of 6 sc (6)
+<li><b>R2:</b> inc all around (12)
+<li><b>R3:</b> [1 sc, 1 inc] x6 (18)
+<li><b>R4:</b> [2 sc, 1 inc] x6 (24)
+<li><b>R5:</b> change to QUARRY, sc around in BLO (24)
+<li><b>R6-7:</b> sc around (24) - 2 rounds
+<li><b>R8:</b> 3 sc, [1 dec, 1 sc] x6, 3 sc (18)
+<li><b>R9-18:</b> sc around (18) - 10 rounds
+</ul>
+<p>Stuff the lower part of the arm only.</p>
+<ul class="rows">
+<li><b>R19:</b> [4 sc, 1 dec] x3 (15)
+<li><b>R20:</b> [3 sc, 1 dec] x3 (12)
+<li><b>R21:</b> fold the arm in half and close with 6 sc (6). Make 1 ch, cut a long tail to sew the arms to the body. See the video.
+</ul>
+<p class="note">The PDF printed R20 as [3 sc, 1 dec] x6 (12), but x3 is what takes 15 stitches to 12 (same as the other animals).</p></section>
+
+<section><h3>Bows - make 2 - Girl Version (SWEETNESS, 2.0 mm)</h3>
+<p>Make an MR. Inside it: 3 ch, 3 dc, 2 ch, 1 sl st, 2 ch, 3 dc, 2 ch, 1 sl st. Cut a long thread and wrap about 4 turns around the middle of the bow. Take the thread to the back, knot a couple of times, then sew the bow to the head near the ears.</p></section>
+
+<section><h3>Dress - Girl Version (SWEETNESS, 3 mm)</h3>
+<ul class="rows">
+<li><b>R1:</b> make 42 ch, close with sl st in the first ch to make a ring. 2 ch, 1 hdc in each ch (42). Close with sl st in the top of the first ch.
+<li><b>R2:</b> 2 ch, hdc around (42). Close with sl st in the top of the first ch.
+<li><b>R3:</b> 3 ch, 1 dc in the same place, 2 dc in each dc all the way around (84).
+</ul>
+<p>Change to PINKISH: lace edge - 1 sl st, 2 ch repeated to the end. Fasten off.</p>
+<p><b>Straps:</b> attach SWEETNESS to a loop of the first round (seam at the back). 6 sc, 18 ch, skip 6 ch, 1 sc in each ch; at the base of the skirt 30 sc; 18 ch, skip 6 ch, 1 sc in each ch; finish with 6 sc. Close with sl st and fasten off.</p>
+<p><b>Strap edging:</b> on the first strap attach PINK in the first sc after the 6 ch and work the lace edge (1 sl st, 2 ch) to the last sc of the strap; fasten off. Do the same on the second strap, starting in the first sc at the bottom of the loop.</p>
+<p>Place the dress on the hippo to check strap position and distance. Remove it, put the ends of the straps inside the dress with a space between them and sew a few stitches to secure (or add buttons).</p></section>
+
+<section><h3>Tie - Boy Version (PARAKEET, 2 mm)</h3>
+<p><b>R1:</b> make 30 ch, close with sl st in the first ch. 2 ch, 1 hdc in each ch (30). Close with sl st in the top of the first ch (30).</p>
+<p class="note">The rest of this section was partly missing in the PDF. It matches the Tiger and Zebra bow-tie finishing: pinch the middle, wrap about 6 turns, knot at the back and place around the neck.</p></section>
+</article>`,
+    author: "crochet art",
+    date: "2026-09-01",
+    difficulty: "Intermediate",
+    category: "Animals",
+    mainImg: "/pattern imgs/zoo animls/Zooming_in_on_animals_2K_20261013134055.jpg",
+    otherImgs: ["/pattern imgs/zoo animls/zebra.jpg", "/pattern imgs/zoo animls/keep_the_orange_one_and_2K_20261013145834.jpg", "/pattern imgs/zoo animls/gray.jpg"],
+    buyUrl: "https://crochetmakerr.gumroad.com/l/3animals",
+  },
 ];
